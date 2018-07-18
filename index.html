@@ -95,6 +95,185 @@
         </section>
 
         <section>
+          <h2>Why?</h2>
+          If we want to connect to live data or make code for the web having an understanding is important. 
+        </section>
+
+        				<section>
+					<h1>How the Internet Works</h1>
+				</section>
+
+				<section>
+					<h2>What is the Internet?</h2>
+					Internet is basically just a marriage of hardware and protocols.
+				</section>
+
+				<section>
+					<h2>ARPANET</h2>
+					ARPANET - the grandfather to the internet. It’s just a network but the internet is a internet of internets. This started in the 1970s.
+				</section>
+
+				<section>
+					<h2>How Does The Internet Connect?</h2>
+					The internet is always changing as new networks come and old ones go. There are satellite networks and land networks connected via submarine cables. This can be even as small as a home network, or local area network (like an office).
+				</section>
+
+				<section>
+					<h2>  Network of Networks </h2>
+					<img alt="the internet" src="https://res.cloudinary.com/dkibchpur/image/upload/v1531940650/the_internet.png">
+				</section>
+
+				<section>
+					<h2> Submarine Cables </h2>
+					<img alt="submarine cables" src="https://res.cloudinary.com/dkibchpur/image/upload/v1531940490/Screen_Shot_2017-09-25_at_9.44.45_PM.png">
+				</section>
+
+			<section>
+				<h2>Clients and Servers</h2>
+				The internet is made up of two types of machines clients and server. Every machine is ether a client or a server but many machines can be both.
+			</section>
+
+			<section>
+				<h2>Clients</h2>
+				The client requests information from a server. The client starts with the local server and goes to a regional and than national server. It goes up the chain until it gets the information you need is.
+			</section>
+
+			<section>
+				<h2>Servers</h2>
+				A server is a computer program or a device that provides functionality for other programs or devices(clients).
+			</section>
+
+			<section>
+				<h2>Packets</h2>
+				When the information is being sent it needs to broken into many small pieces which are called packet. Packets don't always go in order and sometimes the same packets are sent separately in different places. Packets are reassembled based on the instructions that get sent.
+			</section>
+
+			<section>
+				<h2>When you go to a website what happens?</h2>
+				The domain name system (DNS) translates hostnames such as (www.google.com) the ip address to a domain name. This happens via an DNS resolver.
+			</section>
+
+			<section>
+				<h2>IP - Internet Protocol</h2>
+				The internet protocol handles address and routing.
+			</section>
+
+			<section>
+				<h2>TCP - Transfer Control Protocol</h2>
+				Handles reliable delivery
+			</section>
+
+			<section>
+				<h2>HTTP - HyperText Transfer Protocol</h2>
+				HTTP is what clients use to make requests from servers.
+			</section>
+
+			<section>
+				<h2>So what we do we request?</h2>
+				We request things like HTML, images, binary data, or dynamically generated query results.
+			</section>
+
+			<section>
+				<h2> Types of Requests</h2>
+				<p>
+					GET - Requests data from a specified resource
+				</p>
+				<p>
+				POST - Submits data to be processed to a specified resource
+				</p>
+			</section>
+
+			<section>
+				<h2> GET </h2>
+				Can be cached, remain in the browser history, they can be bookmarked.
+				They should never be used when dealing with sensitive data and they have length restrictions.
+				These requests should be used only to retrieve data.
+			</section>
+
+			<section>
+				<h2> POST </h2>
+				These requests are never cached and don't remain in the browser history. They can't be bookmarked and have have no restrictions on data length.
+			</section>
+
+			<section>
+				<h2> We Can See This Happen </h2>
+				Let's load up a site and watch this in our developer tools console			</section>
+			</section>
+
+			<section>
+				<h2> Other Types of Requests</h2>
+				<p>
+					HEAD - Same as GET but returns only HTTP headers and no document body
+				</p>
+				<p>
+					PUT - Uploads a representation of the specified URI
+				</p>
+				<p>
+					DELETE - Deletes the specified resource
+				</p>
+				<p>
+					OPTIONS - Returns the HTTP methods that the server supports
+				</p>
+				<p>
+					CONNECT - Converts the request connection to a transparent TCP/IP tunnel
+				</p>
+			</section>
+
+			<section>
+				<h2> Response </h2>
+			<pre><code class="http" data-trim contenteditable>
+				HTTP/1.1 200 OK
+				<html>
+					<h1>Intro to Flask</h1>
+				</html>
+			</pre></code>
+			</section>
+
+			<section>
+				<h2> We Do This Every Day </h2>
+				<p>
+					When you view a tweet you use the GET method.
+				</p>
+				<p>
+					When you write a tweet you use the POST method.
+				</p>
+				<p>
+					When you delete a tweet you use the DELETE method.
+				</p>
+			</section>
+
+			<section>
+				<h2> HTTP Messages </h2>
+				<p>
+					100 level - Information
+				</p>
+				<p>
+					200 level - Successful
+				</p>
+				<p>
+					300 level - Redirection
+				</p>
+				<p>
+					400 level - Client Error
+				</p>
+				<p>
+					500 level - Server Errors
+				</p>
+			</section>
+
+			<section>
+				<h2> HTTP Headers </h2>
+			<pre><code class="http" data-trim contenteditable>
+GET /home.html HTTP/1.1
+Host: developer.mozilla.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+			</pre></code>
+			</section>
+
+        <section>
           <h2>Next Class</h2>
           Further environment set up and data structures!
         </section>
